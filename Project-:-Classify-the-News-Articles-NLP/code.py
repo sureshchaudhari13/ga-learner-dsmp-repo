@@ -107,9 +107,11 @@ X_test_count = count_vectorizer.transform(X_test)
 X_train_tfidf = tfidf_vectorizer.fit_transform(X_train)
 X_test_tfidf = tfidf_vectorizer.transform(X_test)
 
+#Create MultinomialNB models
 nb_1  = MultinomialNB()
-nb_2  = MultinomialNB()
+nb_2  = MultinomialNB() 
 
+# fit both the models
 nb_1.fit(X_train_count,Y_train)
 nb_2.fit(X_train_tfidf,Y_train)
 
