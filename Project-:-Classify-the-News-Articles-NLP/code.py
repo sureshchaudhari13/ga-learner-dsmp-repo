@@ -49,7 +49,7 @@ stop = set(stopwords.words('english'))
 
 
 # retain only alphabets
-# code to retain only alphabates
+# code to retain only alphabates and remove special chars
 news['TITLE']=news['TITLE'].apply(lambda x:re.sub("[^a-zA-Z]", " ",x))
 
 # convert to lowercase and tokenize
