@@ -65,6 +65,7 @@ df1['purpose'].value_counts().plot.bar()
 # code ends here
 
 
+
 # --------------
 # code starts here
 import matplotlib.pyplot as plt
