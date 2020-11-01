@@ -46,6 +46,7 @@ print('prob_pd_cs : ',prob_pd_cs)
 bayes = (prob_pd_cs * prob_lp)/ prob_cs
 
 print('bayes : ',bayes)
+
 # code ends here
 
 
