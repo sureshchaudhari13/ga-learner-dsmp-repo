@@ -182,6 +182,6 @@ y_pred = model.predict(X_test)
 # find the accuracy of model after applying SMOTE oversampling on imbalanced dataset
 score = accuracy_score(y_test,y_pred)
 print('accuracy score after SMOTE oversampling is :', score)
-# Code  ends  here
+# Code ends here
 
 
