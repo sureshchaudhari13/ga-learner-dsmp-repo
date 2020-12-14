@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 # Code starts here
-# load the data
+# load  the data
 df = pd.read_csv(path)
 
 # data shape
