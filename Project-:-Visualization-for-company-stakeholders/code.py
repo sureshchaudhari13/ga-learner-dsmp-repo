@@ -11,6 +11,7 @@ data = pd.read_csv(path)
 
 data.head()
 
+
 # see loan status count
 loan_status = data.Loan_Status.value_counts()
 print('loan_status in  :', loan_status)
