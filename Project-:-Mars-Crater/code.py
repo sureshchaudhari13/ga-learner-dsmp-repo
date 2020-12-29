@@ -28,7 +28,6 @@ X_test = scaler.transform(X_test)
 
 print(X_test[45,5])
 
-
 # --------------
 from sklearn.metrics import classification_report
 from sklearn.linear_model import LogisticRegression
