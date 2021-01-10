@@ -37,7 +37,7 @@ print('confidence_interval :',confidence_interval)
 
 # True Mean of population
 true_mean = data['installment'].mean()
-print('true_mean :',true_mean)
+print( 'true_mean :',true_mean)
 
 
 
