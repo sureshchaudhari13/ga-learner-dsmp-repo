@@ -13,7 +13,7 @@ df = pd.read_csv(path)
 print('=================df shape========================')
 print(df.shape)
 
-print('=================df info=======================')
+print('=================df info========================')
 print(df.info())
 
 # remove special characters(',' & '$')from df columns
