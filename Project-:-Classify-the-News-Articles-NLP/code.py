@@ -23,7 +23,7 @@ from sklearn.metrics import accuracy_score ,confusion_matrix
 news = pd.read_csv(path) 
 
 
-# subset data
+# subset  data
 # selecting required cols only from DF
 news = news[['TITLE','CATEGORY']]
 
