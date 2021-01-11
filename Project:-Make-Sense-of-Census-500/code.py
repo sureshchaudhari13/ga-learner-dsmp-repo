@@ -26,9 +26,7 @@ age_mean=age.mean()
 age_std =age.std()
 
 
-
 print ( "max age is: {0}, min age is:  {1}, mean age is: {2}, std age is {3}".format(max_age,min_age,age_mean,age_std))
-
 
 # --------------
 #Code starts here
