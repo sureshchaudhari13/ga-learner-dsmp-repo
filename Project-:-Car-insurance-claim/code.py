@@ -31,6 +31,7 @@ df['CLM_AMT']=df['CLM_AMT'].str.replace(',|\$', '')
 X= df.iloc[:, :-1]
 y=df.iloc[:, -1]
 
+
 # see shape of X & y
 print('===== X & y shape =====')
 print(X.shape,y.shape)
