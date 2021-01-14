@@ -23,7 +23,7 @@ print('data_sample.shape :',data_sample.shape)
 sample_mean = data_sample['installment'].mean()
 print('sample_mean :',sample_mean)
 
-# Sample installment std deviation
+# Sample  installment std deviation
 sample_std = data_sample['installment'].std()
 print('sample_std :',sample_std)
 
