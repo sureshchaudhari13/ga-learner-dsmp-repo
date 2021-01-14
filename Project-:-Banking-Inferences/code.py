@@ -15,7 +15,7 @@ z_critical = stats.norm.ppf(q = 0.95)
 # Read Data
 data = pd.read_csv(path)
 
-# create Data sample
+# create Data  sample
 data_sample = data.sample(n=sample_size,random_state=0)
 print('data_sample.shape :',data_sample.shape)
 
