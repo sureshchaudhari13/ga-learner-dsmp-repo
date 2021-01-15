@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 #Sample_Size
 sample_size=2000
 
-#Z_Critical  Score
+#Z_Critical Score
 z_critical = stats.norm.ppf(q = 0.95)  
 
 # Read Data
