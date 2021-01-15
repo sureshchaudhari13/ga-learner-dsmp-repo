@@ -19,7 +19,7 @@ data = pd.read_csv(path)
 data_sample = data.sample(n=sample_size,random_state=0)
 print('data_sample.shape :',data_sample.shape)
 
-# Sample  installment mean
+# Sample installment mean
 sample_mean = data_sample['installment'].mean()
 print('sample_mean :',sample_mean)
 
