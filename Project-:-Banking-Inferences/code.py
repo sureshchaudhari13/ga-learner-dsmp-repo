@@ -31,7 +31,7 @@ print('sample_std :',sample_std)
 margin_of_error = z_critical * (sample_std/math.sqrt(sample_size))
 print('margin_of_error :',margin_of_error)
 
-#Confidence Interval
+#Confidence  Interval
 confidence_interval = (sample_mean - margin_of_error, sample_mean + margin_of_error)
 print('confidence_interval :',confidence_interval)
 
