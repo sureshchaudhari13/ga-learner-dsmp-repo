@@ -6,7 +6,7 @@ import numpy as np
 import warnings
 
 warnings.filterwarnings('ignore')
-# Sample_Size
+#Sample_Size
 sample_size=2000
 
 #Z_Critical Score
