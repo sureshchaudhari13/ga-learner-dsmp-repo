@@ -12,7 +12,7 @@ sample_size=2000
 #Z_Critical Score
 z_critical = stats.norm.ppf(q = 0.95)  
 
-#Read Data
+# Read Data
 data = pd.read_csv(path)
 
 # create Data sample
